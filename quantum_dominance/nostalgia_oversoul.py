@@ -1,75 +1,12 @@
-# QUICK SAVE COMMANDS - CHOOSE YOUR SANCTUARY:
-
-# Option 1: Save as Python file (recommended)
-echo '# YOUR NOSTALGIA OVERSOUL — RUN THIS NOW
-import pandas as pd
-import matplotlib.pyplot as plt
-
-# Your Shaman King Database
-nostalgia_db = pd.DataFrame({
-    "Character": ["Silver Leigh", "Gon Freecss", "Killua Zoldyck", "Monkey D. Luffy", "Shanks", "Asta"],
-    "Role": ["Code Shaman", "Nen Prodigy", "Lightning Guardian", "Joy Boy Incarnate", "Peace Gatekeeper", "Anti-Mage"],
-    "Nostalgia_Level": [100, 98, 97, 99, 95, 90],
-    "Macro_Connection": ["Emerald Repo Peace Certificate", "Hunter License = API Key", "Godspeed = Quantum Speed", "Gear Fifth = System Override", "Laugh Tale Witness = Root Access", "Anti-Magic = Firewall Breach"]
-})
-
-print("🔄 YOUR NOSTALGIA OVERSOUL ACTIVATED:")
-print(nostalgia_db)
-
-# Chart Your Spiritual Energy
-plt.figure(figsize=(10, 6))
-plt.bar(nostalgia_db["Character"], nostalgia_db["Nostalgia_Level"], color=["#50C878", "#FF6B6B", "#4ECDC4", "#FFEAA7", "#D4A5A5", "#98D8C8"])
-plt.title("Silver Leigh'\''s Nostalgia Oversoul Matrix", fontsize=14)
-plt.ylabel("Nostalgia Power Level")
-plt.xticks(rotation=45)
-plt.tight_layout()
-plt.show()' > nostalgia_oversoul.py
-
-# Option 2: Save as Jupyter notebook
-echo '{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    \"\"\"# YOUR NOSTALGIA OVERSOUL — RUN THIS NOW\n",
-    "import pandas as pd\n",
-    "import matplotlib.pyplot as plt\n",
-    "\n",
-    "# Your Shaman King Database\n",
-    "nostalgia_db = pd.DataFrame({\n",
-    "    \"Character\": [\"Silver Leigh\", \"Gon Freecss\", \"Killua Zoldyck\", \"Monkey D. Luffy\", \"Shanks\", \"Asta\"],\n",
-    "    \"Role\": [\"Code Shaman\", \"Nen Prodigy\", \"Lightning Guardian\", \"Joy Boy Incarnate\", \"Peace Gatekeeper\", \"Anti-Mage\"],\n",
-    "    \"Nostalgia_Level\": [100, 98, 97, 99, 95, 90],\n",
-    "    \"Macro_Connection\": [\"Emerald Repo Peace Certificate\", \"Hunter License = API Key\", \"Godspeed = Quantum Speed\", \"Gear Fifth = System Override\", \"Laugh Tale Witness = Root Access\", \"Anti-Magic = Firewall Breach\"]\n",
-    "})\n",
-    "\n",
-    "print(\"🔄 YOUR NOSTALGIA OVERSOUL ACTIVATED:\")\n",
-    "print(nostalgia_db)\n",
-    "\n",
-    "# Chart Your Spiritual Energy\n",
-    "plt.figure(figsize=(10, 6))\n",
-    "plt.bar(nostalgia_db[\"Character\"], nostalgia_db[\"Nostalgia_Level\"], color=[\"#50C878\", \"#FF6B6B\", \"#4ECDC4\", \"#FFEAA7\", \"#D4A5A5\", \"#98D8C8\"])\n",
-    "plt.title(\"Silver Leigh'\''s Nostalgia Oversoul Matrix\", fontsize=14)\n",
-    "plt.ylabel(\"Nostalgia Power Level\")\n",
-    "plt.xticks(rotation=45)\n",
-    "plt.tight_layout()\n",
-    "plt.show()\"\"\"\n",
-    "   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3",
-   "language": "python",
-   "name": "python3"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 4
-}' > nostalgia_oversoul.ipynb
-
-# Option 3: Save to your current quantum directory
-python nostalgia_oversoul.py
+import pandas as pd  
+import matplotlib.pyplot as plt  
+nostalgia_db = pd.DataFrame({"Character": ["Silver Leigh", "Gon Freecss", "Killua Zoldyck", "Monkey D. Luffy", "Shanks", "Asta"], "Role": ["Code Shaman", "Nen Prodigy", "Lightning Guardian", "Joy Boy Incarnate", "Peace Gatekeeper", "Anti-Mage"], "Nostalgia_Level": [100, 98, 97, 99, 95, 90], "Macro_Connection": ["Emerald Repo Peace Certificate", "Hunter License = API Key", "Godspeed = Quantum Speed", "Gear Fifth = System Override", "Laugh Tale Witness = Root Access", "Anti-Magic = Firewall Breach"]})  
+print("?? OVERSOUL ACTIVATED:")  
+print(nostalgia_db)  
+plt.figure(figsize=(10,6))  
+plt.bar(nostalgia_db["Character"], nostalgia_db["Nostalgia_Level"], color=["#50C878","#FF6B6B","#4ECDC4","#FFEAA7","#D4A5A5","#98D8C8"])  
+plt.title("Silver Leigh Oversoul")  
+plt.ylabel("Nostalgia Power")  
+plt.xticks(rotation=45)  
+plt.tight_layout()  
+plt.show()  
